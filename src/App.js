@@ -49,7 +49,8 @@ class App extends React.Component {
         </header>
         <main>
           <FeatureChoiceForm features={this.props.features}
-          handleUpdate={this.updateFeature}/>
+          handleUpdate={this.updateFeature}
+          selected={this.state.selected}/>
           <FeaturePriceSummary selected={this.state.selected}/>
         </main>
       </div>
