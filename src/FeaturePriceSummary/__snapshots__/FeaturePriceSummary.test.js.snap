@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Price Summary Component renders UI as expected 1`] = `
+<section
+  className="main__summary"
+>
+  <h3>
+    NEW GREENLEAF 2018
+  </h3>
+  <div
+    key="Processor"
+  >
+    <FeaturePrice
+      cost={700}
+      myKey="Processor"
+      name="17th Generation Intel Core HB (7 Core with donut spare)"
+    />
+  </div>
+  <div
+    key="Operating System"
+  >
+    <FeaturePrice
+      cost={200}
+      myKey="Operating System"
+      name="Ubuntu Linux 16.04"
+    />
+  </div>
+  <div
+    key="Video Card"
+  >
+    <FeaturePrice
+      cost={1150.98}
+      myKey="Video Card"
+      name="Toyota Corolla 1.5v"
+    />
+  </div>
+  <div
+    key="Display"
+  >
+    <FeaturePrice
+      cost={1500}
+      myKey="Display"
+      name="15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs"
+    />
+  </div>
+  <div
+    className="summary__total"
+  >
+    <div
+      className="summary__total__label"
+    >
+      Your Price: 
+    </div>
+    <div
+      className="summary__total__value"
+    >
+      $3,550.98
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Price Summary Component renders a different list when selected prop changes 1`] = `
+<section
+  className="main__summary"
+>
+  <h3>
+    NEW GREENLEAF 2018
+  </h3>
+  <div
+    key="Processor"
+  >
+    <FeaturePrice
+      cost={7000000}
+      myKey="Processor"
+      name="CHANGED PROP HERE"
+    />
+  </div>
+  <div
+    key="Operating System"
+  >
+    <FeaturePrice
+      cost={200}
+      myKey="Operating System"
+      name="Ubuntu Linux 16.04"
+    />
+  </div>
+  <div
+    key="Video Card"
+  >
+    <FeaturePrice
+      cost={1150.98}
+      myKey="Video Card"
+      name="Toyota Corolla 1.5v"
+    />
+  </div>
+  <div
+    key="Display"
+  >
+    <FeaturePrice
+      cost={1500}
+      myKey="Display"
+      name="15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs"
+    />
+  </div>
+  <div
+    className="summary__total"
+  >
+    <div
+      className="summary__total__label"
+    >
+      Your Price: 
+    </div>
+    <div
+      className="summary__total__value"
+    >
+      $7,002,850.98
+    </div>
+  </div>
+</section>
+`;
