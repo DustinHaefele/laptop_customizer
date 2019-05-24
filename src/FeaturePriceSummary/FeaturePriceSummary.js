@@ -12,9 +12,15 @@ function FeaturePriceSummary(props) {
       <h3>NEW GREENLEAF 2018</h3>
 
       {Object.keys(props.selected).map(key => {
-        return <FeaturePrice key={key} 
-          cost={props.selected[key].cost} 
-          name={props.selected[key].name} />;
+        return (
+          <div key={key}>
+            <FeaturePrice
+              myKey={key}
+              cost={props.selected[key].cost}
+              name={props.selected[key].name}
+            />
+          </div>
+        );
       })}
 
       <div className="summary__total">

@@ -1,11 +1,11 @@
 import React from "react";
 
 
-export default function FeaturePrice(props) {
+function FeaturePrice(props) {
   
     return (
-      <div className="summary__option" key={props.key}>
-        <div className="summary__option__label">{props.key} </div>
+      <div className="summary__option" key={props.myKey}>
+        <div className="summary__option__label">{props.myKey} </div>
         <div className="summary__option__value">
           {props.name}
         </div>
@@ -18,3 +18,5 @@ export default function FeaturePrice(props) {
       </div>
     );
 }
+
+export default FeaturePrice;

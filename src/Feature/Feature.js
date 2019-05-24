@@ -1,11 +1,12 @@
 import React from 'react';
 
-export default function Feature(props) {
-
+function Feature(props) {
+  console.log(props);
   let options = props.options.map((item, index) => 
   {
+    // debugger;
     const selectedClass =
-      item.name === props.selected[props.key].name
+      item.name === props.selected[props.myKey].name
         ? "feature__selected"
         : "";
     const featureClass = "feature__option " + selectedClass;
@@ -13,7 +14,7 @@ export default function Feature(props) {
       <li key={index} className="feature__item">
         <div
           className={featureClass}
-          onClick={(e) => props.handleUpdate(props.key, item)}
+          onClick={(e) => props.handleUpdate(props.myKey, item)}
         >
           {item.name}(
           {new Intl.NumberFormat("en-US", {
@@ -33,4 +34,6 @@ export default function Feature(props) {
     </div>
   );
 }
+
+export default Feature;
 

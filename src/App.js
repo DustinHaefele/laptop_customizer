@@ -28,7 +28,7 @@ class App extends React.Component {
     };
   
 
-  updateFeature(feature, newValue) {
+  updateFeature = (feature, newValue) =>  {
     const selected = Object.assign({}, this.state.selected);
     selected[feature] = newValue;
     this.setState({
@@ -37,8 +37,6 @@ class App extends React.Component {
   }
 
   render() {
-
-    
 
     return (
       <div className="App">
