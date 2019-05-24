@@ -1,5 +1,6 @@
 import React from "react";
 import FeaturePrice from "../FeaturePrice/FeaturePrice";
+import './FeaturePriceSummary.css';
 
 function FeaturePriceSummary(props) {
   const total = Object.keys(props.selected).reduce(

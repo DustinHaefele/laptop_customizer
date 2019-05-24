@@ -1,4 +1,5 @@
 import React from "react";
+import './FeaturePrice.css'
 
 
 function FeaturePrice(props) {

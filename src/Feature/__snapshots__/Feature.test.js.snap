@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Feature Component Changes which is selected onClick 1`] = `
+<div
+  className="feature"
+>
+  <div
+    className="feature__name"
+  />
+  <ul
+    className="feature__list"
+  >
+    <li
+      className="feature__item"
+      key="0"
+    >
+      <div
+        className="feature__option feature__selected"
+        onClick={[Function]}
+      >
+        17th Generation Intel Core HB (7 Core with donut spare)
+        (
+        $700.00
+        )
+      </div>
+    </li>
+    <li
+      className="feature__item"
+      key="1"
+    >
+      <div
+        className="feature__option "
+        onClick={[Function]}
+      >
+        Professor X AMD Fire Breather with sidewinder technology
+        (
+        $1,200.00
+        )
+      </div>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Feature Component renders UI as expected 1`] = `
+<div
+  className="feature"
+>
+  <div
+    className="feature__name"
+  />
+  <ul
+    className="feature__list"
+  >
+    <li
+      className="feature__item"
+      key="0"
+    >
+      <div
+        className="feature__option feature__selected"
+        onClick={[Function]}
+      >
+        17th Generation Intel Core HB (7 Core with donut spare)
+        (
+        $700.00
+        )
+      </div>
+    </li>
+    <li
+      className="feature__item"
+      key="1"
+    >
+      <div
+        className="feature__option "
+        onClick={[Function]}
+      >
+        Professor X AMD Fire Breather with sidewinder technology
+        (
+        $1,200.00
+        )
+      </div>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Feature Component renders with the correct selected class 1`] = `
+<div
+  className="feature"
+>
+  <div
+    className="feature__name"
+  />
+  <ul
+    className="feature__list"
+  >
+    <li
+      className="feature__item"
+      key="0"
+    >
+      <div
+        className="feature__option "
+        onClick={[Function]}
+      >
+        17th Generation Intel Core HB (7 Core with donut spare)
+        (
+        $700.00
+        )
+      </div>
+    </li>
+    <li
+      className="feature__item"
+      key="1"
+    >
+      <div
+        className="feature__option feature__selected"
+        onClick={[Function]}
+      >
+        Professor X AMD Fire Breather with sidewinder technology
+        (
+        $1,200.00
+        )
+      </div>
+    </li>
+  </ul>
+</div>
+`;

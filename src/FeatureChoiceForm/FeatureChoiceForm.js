@@ -1,5 +1,6 @@
 import React from "react";
 import Feature from "../Feature/Feature";
+import "./FeatureChoiceForm.css";
 
 function FeatureChoiceForm(props) {
   return (
@@ -7,10 +8,15 @@ function FeatureChoiceForm(props) {
       <h3>TECH SPECS AND CUSTOMIZATIONS</h3>
       {Object.keys(props.features).map(key => {
         return (
-        <div key={key}>
-          <Feature options={props.features[key]} myKey={key} selected={props.selected} handleUpdate={props.handleUpdate} />
-        </div>
-      );
+          <div key={key}>
+            <Feature
+              options={props.features[key]}
+              myKey={key}
+              selected={props.selected}
+              handleUpdate={props.handleUpdate}
+            />
+          </div>
+        );
       })}
     </section>
   );

@@ -1,10 +1,10 @@
 import React from 'react';
+import './Feature.css'
 
 function Feature(props) {
   console.log(props);
   let options = props.options.map((item, index) => 
   {
-    // debugger;
     const selectedClass =
       item.name === props.selected[props.myKey].name
         ? "feature__selected"

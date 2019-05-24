@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeatureChoiceForm component renders UI as expected 1`] = `
+<section
+  className="main__form"
+>
+  <h3>
+    TECH SPECS AND CUSTOMIZATIONS
+  </h3>
+  <div
+    key="Processor"
+  >
+    <Feature
+      handleUpdate={[MockFunction]}
+      myKey="Processor"
+      options={
+        Array [
+          Object {
+            "cost": 700,
+            "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+          },
+          Object {
+            "cost": 1200,
+            "name": "Professor X AMD Fire Breather with sidewinder technology",
+          },
+        ]
+      }
+      selected={
+        Object {
+          "Display": Object {
+            "cost": 1500,
+            "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+          },
+          "Operating System": Object {
+            "cost": 200,
+            "name": "Ubuntu Linux 16.04",
+          },
+          "Processor": Object {
+            "cost": 700,
+            "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+          },
+          "Video Card": Object {
+            "cost": 1150.98,
+            "name": "Toyota Corolla 1.5v",
+          },
+        }
+      }
+    />
+  </div>
+  <div
+    key="Operating System"
+  >
+    <Feature
+      handleUpdate={[MockFunction]}
+      myKey="Operating System"
+      options={
+        Array [
+          Object {
+            "cost": 200,
+            "name": "Ubuntu Linux 16.04",
+          },
+          Object {
+            "cost": 300,
+            "name": "Bodhi Linux",
+          },
+        ]
+      }
+      selected={
+        Object {
+          "Display": Object {
+            "cost": 1500,
+            "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+          },
+          "Operating System": Object {
+            "cost": 200,
+            "name": "Ubuntu Linux 16.04",
+          },
+          "Processor": Object {
+            "cost": 700,
+            "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+          },
+          "Video Card": Object {
+            "cost": 1150.98,
+            "name": "Toyota Corolla 1.5v",
+          },
+        }
+      }
+    />
+  </div>
+  <div
+    key="Video Card"
+  >
+    <Feature
+      handleUpdate={[MockFunction]}
+      myKey="Video Card"
+      options={
+        Array [
+          Object {
+            "cost": 1150.98,
+            "name": "Toyota Corolla 1.5v",
+          },
+          Object {
+            "cost": 1345,
+            "name": "Mind mild breeze 2000",
+          },
+        ]
+      }
+      selected={
+        Object {
+          "Display": Object {
+            "cost": 1500,
+            "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+          },
+          "Operating System": Object {
+            "cost": 200,
+            "name": "Ubuntu Linux 16.04",
+          },
+          "Processor": Object {
+            "cost": 700,
+            "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+          },
+          "Video Card": Object {
+            "cost": 1150.98,
+            "name": "Toyota Corolla 1.5v",
+          },
+        }
+      }
+    />
+  </div>
+  <div
+    key="Display"
+  >
+    <Feature
+      handleUpdate={[MockFunction]}
+      myKey="Display"
+      options={
+        Array [
+          Object {
+            "cost": 1500,
+            "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+          },
+          Object {
+            "cost": 1400,
+            "name": "15.3\\" HGTV (3840 x 2160) Home makeover edition",
+          },
+        ]
+      }
+      selected={
+        Object {
+          "Display": Object {
+            "cost": 1500,
+            "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+          },
+          "Operating System": Object {
+            "cost": 200,
+            "name": "Ubuntu Linux 16.04",
+          },
+          "Processor": Object {
+            "cost": 700,
+            "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+          },
+          "Video Card": Object {
+            "cost": 1150.98,
+            "name": "Toyota Corolla 1.5v",
+          },
+        }
+      }
+    />
+  </div>
+</section>
+`;
